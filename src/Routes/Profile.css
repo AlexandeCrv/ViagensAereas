@@ -1,0 +1,509 @@
+.header {
+  background-image: url(./assets/header.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.headerdentro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.perfilfotoo {
+  width: 40px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.logoo {
+  width: 120px;
+  height: 120px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+.abaperfiltodo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.abaperfil {
+  background-color: #d9d9d9;
+  width: 360px;
+  height: 1200px;
+}
+
+.abacaracteristicas {
+  width: 980px;
+  background-color: white;
+  color: black;
+}
+.eu {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.euenome {
+  height: 260px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editarperdil {
+  color: #585858;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+.diveditarperfil {
+  border-bottom: 2px solid #585858;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.pperfil {
+  transition: 0.1s;
+  cursor: pointer;
+}
+.pperfil:hover {
+  transform: scale(1.2);
+}
+
+.divimglapis {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.lapis {
+  cursor: pointer;
+}
+
+.divcaracteristicas {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.divrecomendações {
+  width: 790px;
+
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contrecomendações {
+  background-color: #d9d9d9;
+  border-radius: 7px;
+  width: 350px;
+  height: 150px;
+  margin-left: 40px;
+  display: flex;
+  line-height: 15px;
+}
+
+.imgrecomendaçao {
+  height: 150px;
+  width: 150px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  background-image: url("./assets/buenos.jpg");
+  background-size: cover;
+}
+.imgrecomendaçaoo {
+  height: 150px;
+  width: 150px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  background-image: url("./assets/nz.jpg");
+  background-size: cover;
+}
+.imgrecomendaçaooo {
+  height: 150px;
+  width: 150px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  background-image: url("./assets/bb.jpg");
+  background-size: cover;
+}
+.imgrecomendaçaoooo {
+  height: 150px;
+  width: 150px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  background-image: url("./assets/maui.jpg");
+  background-size: cover;
+}
+
+.divreconomedatavalor {
+  margin-left: 10px;
+}
+h4 {
+  font-size: 20px;
+}
+
+.aviao {
+  font-size: 13px;
+}
+
+.h4paviao {
+  height: 50px;
+  line-height: 1px;
+}
+
+.h4valor {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+}
+
+.divattdados {
+  width: 790px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ncdiv {
+  width: 390px;
+  color: black;
+  margin-right: 100px;
+  line-height: 1px;
+}
+
+.telediv {
+  color: black;
+  width: 390px;
+  line-height: 1px;
+}
+.inptdados {
+  background-color: #ebebeb;
+  height: 30px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  width: 315px;
+}
+
+.paragdados {
+  font-size: 19px;
+}
+
+input[type="text"] {
+}
+
+.divpassaporte {
+  line-height: 1px;
+  margin-bottom: 30px;
+}
+
+.divnomecompleto {
+  margin-bottom: 30px;
+}
+
+.divfotoperfil {
+  margin-bottom: 30px;
+}
+
+select {
+  outline: none;
+  border-radius: 7px;
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+option {
+  font-size: 15px;
+}
+
+.botao {
+  padding: 8px;
+  width: 200px;
+  margin-left: 100px;
+  background-color: #2abd05;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.divavalie {
+  line-height: 1px;
+  margin-top: 50px;
+  height: 400px;
+}
+
+.divqualdestino {
+  height: 60px;
+}
+.divtextarea {
+  margin-top: 30px;
+  height: 90px;
+}
+textarea {
+  padding: 40px;
+  width: 755px;
+}
+
+.divestrelabtn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.divestrelaeparag {
+  width: 300px;
+}
+
+.botaoavalie {
+  padding: 8px;
+  width: 200px;
+  margin-right: 150px;
+  background-color: #2abd05;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.estrelaperfilimg {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.inptavalie {
+  background-color: #ebebeb;
+  height: 30px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  width: 755px;
+}
+
+.textareacrie {
+  padding: 20px;
+  background-color: #ebebeb;
+  height: 30px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  width: 775px;
+}
+
+.foorm {
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 200px;
+  border: 2px dashed #17191f;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.divcrie {
+  width: 790px;
+  height: 760px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.botaocrie {
+  padding: 8px;
+  width: 200px;
+  margin-left: 620px;
+  background-color: #2abd05;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 744px) {
+  .abaperfil {
+    background-color: #d9d9d9;
+    width: 360px;
+    height: 3079px;
+  }
+  .responsovah1 {
+    margin-left: 10px;
+  }
+  .abacaracteristicas {
+    width: 600px;
+    background-color: white;
+    color: black;
+  }
+  .divcaracteristicas {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .divrecomendações {
+    width: 404px;
+
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+  }
+  .contrecomendações {
+    background-color: #d9d9d9;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 350px;
+    height: 150px;
+    margin-left: 40px;
+    display: flex;
+    line-height: 15px;
+  }
+  .divattdados {
+    margin-left: 10px;
+    width: 404px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+  }
+  .divavalie {
+    line-height: 1px;
+    margin-top: 50px;
+    height: 400px;
+    width: 430px;
+    margin-left: 10px;
+  }
+  .inptavalie {
+    background-color: #ebebeb;
+    height: 30px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 300px;
+  }
+  .paragdados {
+    font-size: 16px;
+  }
+  .divestrelabtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 400px;
+  }
+
+  .divestrelaeparag {
+    width: 300px;
+  }
+  .botaoavalie {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: #2abd05;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .divfotoperfil {
+    margin-bottom: 0px;
+  }
+  .telediv {
+    color: black;
+    width: 390px;
+    line-height: 1px;
+    margin-bottom: 100px;
+  }
+  .divcrie {
+    width: 430px;
+    height: 1000px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .textareacrie {
+    padding: 20px;
+    background-color: #ebebeb;
+    height: 30px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 305px;
+  }
+  .botaocrie {
+    padding: 8px;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #2abd05;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .abaperfiltodo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .abaperfil {
+    background-color: #d9d9d9;
+    width: 460px;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .abacaracteristicas {
+    width: 460px;
+    background-color: white;
+    color: black;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .divattdados {
+    margin-left: 10px;
+    width: 460px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+  }
+  .botao {
+    margin-left: 0px;
+  }
+  .foorm {
+    margin-right: 100px;
+  }
+}
