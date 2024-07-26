@@ -40,7 +40,7 @@ function Profile() {
     <div>
       <div className="header">
         <div className="headerdentro">
-          <Link to={"/"}>
+          <Link to="/ViagensAereas">
             <img className="perfilfotoo" src={voltar} alt="" />
           </Link>
           <img className="logoo" src={logo} alt="" />
