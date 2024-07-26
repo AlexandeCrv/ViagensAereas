@@ -126,8 +126,8 @@ export const Home = () => {
   ];
 
   const getAccessToken = async () => {
-    const client_id = "d9DjiTQPokZlgwYrPaXeRP2bnFBQihTp";
-    const client_secret = "eVDK8uRhWlVJf0uw";
+    const client_id = "Tsxv8jWaF5v3ScSiV5xNzffxexZ5Qkj8";
+    const client_secret = "FoKZOZhOlOXsurWg";
 
     try {
       const response = await axios.post(
